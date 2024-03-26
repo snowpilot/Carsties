@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingService", "src\Biddi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "src\NotificationService\NotificationService.csproj", "{39561018-C5E9-4F3A-A327-158C6572C247}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService.UnitTests", "tests\AuctionService.UnitTests\AuctionService.UnitTests.csproj", "{1510FC6C-44A5-42AC-8AEB-65520C098E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService.IntegrationTests", "tests\AuctionService.IntegrationTests\AuctionService.IntegrationTests.csproj", "{CEDCBEDE-47A1-4741-9C86-8D9D3EED47A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,14 @@ Global
 		{39561018-C5E9-4F3A-A327-158C6572C247}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39561018-C5E9-4F3A-A327-158C6572C247}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39561018-C5E9-4F3A-A327-158C6572C247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1510FC6C-44A5-42AC-8AEB-65520C098E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1510FC6C-44A5-42AC-8AEB-65520C098E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1510FC6C-44A5-42AC-8AEB-65520C098E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1510FC6C-44A5-42AC-8AEB-65520C098E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDCBEDE-47A1-4741-9C86-8D9D3EED47A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDCBEDE-47A1-4741-9C86-8D9D3EED47A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDCBEDE-47A1-4741-9C86-8D9D3EED47A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDCBEDE-47A1-4741-9C86-8D9D3EED47A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,5 +79,7 @@ Global
 		{9776243E-A079-4BA1-BEC9-065CADAF5C9F} = {54CAB0AD-76EC-4E33-BA9A-F40D45C7FF52}
 		{27F81243-3BE1-48B9-9161-EAA7ADD403E6} = {54CAB0AD-76EC-4E33-BA9A-F40D45C7FF52}
 		{39561018-C5E9-4F3A-A327-158C6572C247} = {54CAB0AD-76EC-4E33-BA9A-F40D45C7FF52}
+		{1510FC6C-44A5-42AC-8AEB-65520C098E6F} = {F4DD59AD-CD9D-45DD-A2CF-2DE3E17456A5}
+		{CEDCBEDE-47A1-4741-9C86-8D9D3EED47A6} = {F4DD59AD-CD9D-45DD-A2CF-2DE3E17456A5}
 	EndGlobalSection
 EndGlobal
